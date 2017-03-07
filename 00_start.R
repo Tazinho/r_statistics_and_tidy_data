@@ -1,3 +1,6 @@
+# install.packages("sjPlot")
+# install.packages("sjmisc")
+
 alter <- c(33,31,37,28,35,52,31,33,
            32,25,40,27,31,46)
 geschlecht <- c("w",
