@@ -30,3 +30,8 @@ sjPlot::sjt.frq(alter)
 sjPlot::sjp.frq(alter)
 sjPlot::sjp.frq(geschlecht)
 sjPlot::sjt.frq(factor(geschlecht))
+sjPlot::sjt.xtab(alter, geschlecht)
+sjPlot::sjp.xtab(alter, geschlecht)
+mydf <- data.frame(farben = c("rot", "grün", "blau", NA, NA),
+                 zahlen = 1:5)
+
